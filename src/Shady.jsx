@@ -1,7 +1,7 @@
 import { Fragment } from "react"
 
-export default Shady function () {
-    return ( 
+export default function Shady () {
+    return( 
     <Fragment>
         <ul>
             <li>Lorem, ipsum dolor.</li>
