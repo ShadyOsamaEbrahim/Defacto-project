@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import Shady from "./Shady";
+
 export default function App(){
     return(
         <Fragment>
@@ -10,7 +10,7 @@ export default function App(){
                 <li>Distinctio, quam rem?</li>
                 <li>Itaque, consectetur asperiores!</li>
             </ul>
-            <Shady></Shady>
+           
         </Fragment>
     )
 }
