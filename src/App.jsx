@@ -7,11 +7,12 @@ import SingleProduct from './pages/SingleProduct'
 import Products from './pages/Products'
 import Users from './pages/Users'
 import P404 from './pages/P404'
-
+import Login from "./pages/Login";
 
 export default function App(){
     return(
         <Fragment>
+            <Login />
             <TopNavbar />
             <Routes>
                 <Route path="/" element={<Home />}></Route>
